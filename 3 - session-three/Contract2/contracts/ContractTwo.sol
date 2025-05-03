@@ -6,9 +6,9 @@ contract contractTwo {
   uint256 balance = 2;
 
   constructor(uint256 deposit) {
-    console.log(" 1. Balance is now", balance);
+    console.log(" 1. Current balance: ", balance);
     balance += deposit;
-    console.log(" 2. Balance is now", balance);
+    console.log(" 2. Current balance: ", balance);
   
   }
 }

@@ -11,11 +11,12 @@ contract contractOne {
     balance = 70;
     owner = address(0);
     accounts["TBA"] = 99;
-    accounts["string"] = 55;
+    accounts["k1taru"] = 55;
 
     console.log("Balance is", balance);
     console.log("Owner is", owner);
-    console.log("Account is", accounts["theblokc"]);
+    console.log("Account is", accounts["TBA"]);
     console.log("Account is", accounts["k1taru"]);
+
   }
 }
