@@ -1,7 +1,7 @@
 const hre = require("hardhat");
 
 async function main() {
-  const contract = await hre.ethers.deployContract("structsExample");
+  const contract = await hre.ethers.deployContract("structsExampleDynamic");
 
   await contract.waitForDeployment();
 
@@ -10,5 +10,5 @@ async function main() {
 
 main().catch((error) => {
   console.error(error);
-  process.exitCode = 1;s
+  process.exitCode = 1;
 });
